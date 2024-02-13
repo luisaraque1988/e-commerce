@@ -14,7 +14,7 @@ body {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        background-color: beige;
+        background-color: rgb(245, 245, 220);
 
         .logo {
             width: 80px;
@@ -39,7 +39,30 @@ body {
         .right-links{
             margin-left: auto;
         }
+    }    
 
+    .banner {
+        position: relative;
+        text-align: center;
+        color: white;
+        width: 100%;
 
+        img {
+            width: 100%;
+        }
+
+        .banner-text {
+            position: absolute;
+            bottom: 40px;
+            left: 30px;
+            padding: 15px;
+            font-size: 38px;
+            font-weight: 700;
+            background-color:rgba(194, 83, 14, 0.7);
+            text-align: left;
+            }
+        }
     }
+
+    
 }
